@@ -1,38 +1,42 @@
-module github.com/caddyserver/caddy
+module github.com/caddyserver/dnsproviders
 
 go 1.12
 
 require (
-	github.com/Xumeiquer/nobots v0.1.1
-	github.com/aablinov/caddy-geoip v0.0.0-20190820062741-c06787a76821
-	github.com/awoodbeck/caddy-git v0.0.0-20190819113107-fbc8e02ed137
-	github.com/caddyserver/dnsproviders v0.3.0
-	github.com/captncraig/caddy-realip v0.0.0-20190710144553-6df827e22ab8
-	github.com/captncraig/cors v0.0.0-20190703115713-e80254a89df1
-	github.com/dhaavi/caddy-permission v0.6.0
-	github.com/dustin/go-humanize v1.0.0
-	github.com/echocat/caddy-filter v0.14.0
-	github.com/epicagency/caddy-expires v1.1.1
-	github.com/flynn/go-shlex v0.0.0-20150515145356-3f9db97f8568
-	github.com/go-acme/lego v2.5.0+incompatible
-	github.com/google/uuid v1.1.1
-	github.com/gorilla/websocket v1.4.0
-	github.com/hacdias/caddy-minify v1.0.2
-	github.com/hashicorp/go-syslog v1.0.0
-	github.com/jimstudt/http-authentication v0.0.0-20140401203705-3eca13d6893a
-	github.com/klauspost/cpuid v1.2.1
-	github.com/kylelemons/godebug v1.1.0 // indirect
-	github.com/lucas-clemente/quic-go v0.10.2
-	github.com/mholt/certmagic v0.6.2-0.20190624175158-6a42ef9fe8c2
-	github.com/mmcloughlin/geohash v0.9.0 // indirect
-	github.com/naoina/toml v0.1.1
-	github.com/oschwald/maxminddb-golang v1.5.0 // indirect
-	github.com/russross/blackfriday v0.0.0-20170610170232-067529f716f4
-	github.com/xuqingfeng/caddy-rate-limit v1.6.6
-	golang.org/x/net v0.0.0-20190328230028-74de082e2cca
-	gopkg.in/mcuadros/go-syslog.v2 v2.2.1
-	gopkg.in/natefinch/lumberjack.v2 v2.0.0
-	gopkg.in/yaml.v2 v2.2.2
+	github.com/Azure/azure-sdk-for-go v31.0.0+incompatible // indirect
+	github.com/Azure/go-autorest/autorest/azure/auth v0.1.0 // indirect
+	github.com/Azure/go-autorest/autorest/to v0.1.0 // indirect
+	github.com/Azure/go-autorest/autorest/validation v0.1.0 // indirect
+	github.com/JamesClonk/vultr v2.0.0+incompatible // indirect
+	github.com/akamai/AkamaiOPEN-edgegrid-golang v0.7.4 // indirect
+	github.com/aliyun/alibaba-cloud-sdk-go v0.0.0-20190703055746-de62006faf99 // indirect
+	github.com/aws/aws-sdk-go v1.19.15 // indirect
+	github.com/caddyserver/caddy v1.0.1
+	github.com/cloudflare/cloudflare-go v0.8.5 // indirect
+	github.com/cpu/goacmedns v0.0.1 // indirect
+	github.com/decker502/dnspod-go v0.0.0-20181231011336-d1081970f528 // indirect
+	github.com/dnsimple/dnsimple-go v0.23.0 // indirect
+	github.com/exoscale/egoscale v0.17.0 // indirect
+	github.com/fatih/structs v1.1.0 // indirect
+	github.com/go-acme/lego v2.7.1+incompatible
+	github.com/go-ini/ini v1.42.0 // indirect
+	github.com/google/go-querystring v1.0.0 // indirect
+	gopkg.in/h2non/gock.v1 v1.0.14
+	github.com/json-iterator/go v1.1.6 // indirect
+	github.com/juju/ratelimit v1.0.1 // indirect
+	github.com/kolo/xmlrpc v0.0.0-20190514182600-74b23a09d7ea // indirect
+	github.com/linode/linodego v0.10.0 // indirect
+	github.com/mitchellh/mapstructure v1.1.2 // indirect
+	github.com/modern-go/reflect2 v1.0.1 // indirect
+	github.com/namedotcom/go v0.0.0-20180403034216-08470befbe04 // indirect
+	github.com/nrdcg/auroradns v1.0.0 // indirect
+	github.com/nrdcg/goinwx v0.6.0 // indirect
+	github.com/ovh/go-ovh v0.0.0-20181109152953-ba5adb4cf014 // indirect
+	github.com/timewasted/linode v0.0.0-20160829202747-37e84520dcf7 // indirect
+	github.com/transip/gotransip v5.8.2+incompatible // indirect
+	golang.org/x/oauth2 v0.0.0-20190402181905-9f3314589c9a // indirect
+	google.golang.org/api v0.3.2 // indirect
+	gopkg.in/ns1/ns1-go.v2 v2.0.0-20190322154155-0dafb5275fd1 // indirect
 )
 
 replace github.com/h2non/gock => gopkg.in/h2non/gock.v1 v1.0.14
